@@ -42,6 +42,8 @@ export APCA_API_SECRET_KEY=<'your secret key'
 
 ```
 $ python ./tick_taker.py
+# Example....
+$ python tick_taker.py — symbol=MU 
 ```
 
 The parameters are following.
@@ -52,7 +54,7 @@ The parameters are following.
 - `--secret-key`: your API key secret. (Can also be set via the APCA_API_SECRET_KEY environment variable.)
 - `--base-url`: the URL to connect to. (Can also be set via the APCA_API_BASE_URL environment variable. Defaults to "https://paper-api.alpaca.markets" if using a paper account key, "https://api.alpaca.markets" otherwise.)
 
-The algorithm can be stopped at any time by sending a keyboard interrupt `CTRL+C` to the console. (You may need to send two `CTRL+C` commands to kill the process depending where in the execution you catch it.)
+-> `CTRL+C` to kill
 
 ## Note
 
@@ -60,3 +62,6 @@ Please also note that this algorithm uses the Polygon streaming API with Alpaca 
 so you have to have a live trading account setup. For more details about the data
 requirements, please see
 [Alpaca documentation](https://docs.alpaca.markets/web-api/market-data/).
+
+
+- https://medium.com/automation-generation/hft-like-trading-algorithm-in-300-lines-of-code-you-can-run-now-983bede4f13a
