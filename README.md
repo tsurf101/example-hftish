@@ -34,8 +34,8 @@ In order to run this algorithm, you have to have Alpaca Trading API key.
 Please obtain it from the dashboard and set it in enviroment variables.
 
 ```sh
-export APCA_API_KEY_ID=<your key id>
-export APCA_API_SECRET_KEY=<your secret key>
+export APCA_API_KEY_ID='your key id'
+export APCA_API_SECRET_KEY=<'your secret key'
 ```
 
 ## Run
